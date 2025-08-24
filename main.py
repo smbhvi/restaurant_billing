@@ -9,7 +9,7 @@ def connect_db():
     return mysql.connector.connect(
         host="localhost",
         user="root",                
-        password="yourpassword",     
+        password=" ",     
         database="restaurant_billing"
     )
 
@@ -48,7 +48,6 @@ class BillingApp:
         self.discount = 0.0
         self.total = 0.0
 
-        # ---------- layout ----------
         self.build_header()
         self.build_body()
         self.build_bill_area()
@@ -56,7 +55,6 @@ class BillingApp:
 
         self.print_bill(preview_only=True)
 
-    # ---------- UI sections ----------
     def build_header(self):
         header = tk.Frame(self.root, bg="#0f4c81", height=64) 
         header.pack(fill="x", side="top")
@@ -331,3 +329,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = BillingApp(root)
     root.mainloop()
+
