@@ -1,0 +1,4 @@
+ID,Ref,Date,Type,Payment,Subtotal,GST,Discount,Service,Total,Customer
+3,5373.0,2025-08-24 22:23,Dine-In,Cash,710.0,127.8,71.0,35.5,802.3,adam
+2,,2025-08-24 22:21,Dine-In,Cash,100.0,5.0,0.0,0.0,105.0,adam
+1,,2025-08-24 22:1C,Dine-In,Cash,100.0,5.0,0.0,0.0,105.0,Adams
